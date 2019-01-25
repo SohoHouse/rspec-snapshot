@@ -29,6 +29,10 @@ module RSpec
             true
           end
         end
+        
+        def description
+          'match snapshot'
+        end
 
         def diffable?
           true
